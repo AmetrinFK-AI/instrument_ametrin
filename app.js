@@ -34,35 +34,32 @@ window.addEventListener('click', (event) => {
 
 if (btn1) {
     btn1.addEventListener('click', () => {
-        window.open('http://192.168.3.216:9100')
+        window.open('http://192.168.3.216:9100', '_blank');
     });
 }
 
 if (btn2) {
     btn2.addEventListener('click', () => {
-        window.open('http://192.168.3.216:5000')
+        window.open('http://192.168.3.216:5000', '_blank');
     });
 }
 
 if (btn3) {
     btn3.addEventListener('click', () => {
-        window.open('http://192.168.3.216:9200')
+        window.open('http://192.168.3.216:9200', '_blank');
     });
 }
 
 if (btn4) {
     btn4.addEventListener('click', () => {
-        window.location.href = 'prompt/prompt.html';
-    });
-
-    btn4.addEventListener('click', () => {
+        // Открываем страницу в новой вкладке
         window.open('prompt/prompt.html', '_blank');
     });
 }
 
 if (btn5) {
     btn5.addEventListener('click', () => {
-        window.location.href = 'http://192.168.3.216:1020';
+        window.open('http://192.168.3.216:1020', '_blank');
     });
 }
 
@@ -71,6 +68,13 @@ if (card6) {
         modal.style.display = 'block';
     });
 }
+
+if (closeBtn) {
+    closeBtn.addEventListener('click', () => {
+        modal.style.display = 'none';
+    });
+}
+
 
 if (closeBtn) {
     closeBtn.addEventListener('click', () => {
