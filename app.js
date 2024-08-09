@@ -40,7 +40,7 @@ if (btn1) {
 
 if (btn2) {
     btn2.addEventListener('click', () => {
-        window.open('https://vidsytni.onrender.com/0', '_blank');
+        window.open('https://vidsytni.onrender.com/', '_blank');
     });
 }
 
