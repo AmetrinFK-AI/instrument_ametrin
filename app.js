@@ -40,7 +40,7 @@ if (btn1) {
 
 if (btn2) {
     btn2.addEventListener('click', () => {
-        window.open('https://vidsytni.onrender.com/', '_blank');
+        window.open('http://192.168.3.216:5000', '_blank');
     });
 }
 
